@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+Login page path :- http://localhost:3000/login
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Jokes page path :- http://localhost:3000/jokes
 
-## Available Scripts
+Dashboard page path :- http://localhost:3000/dashboard
 
-In the project directory, you can run:
 
-### `npm start`
+JavaScript version :- ES6 Version
+functional components :- react hooks
+UI frameworks :- material UI
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[ROUTE NAME -/login]
+[ROUTE NAME -/jokes]
+[ROUTE NAME -/dashboard]
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+login page
 
-### `npm run build`
+a. Username - To accept only alphabets and no special char, symbol,
+and space
+b. Password - limit - 8 char only and to be alphanumeric and no space
+c. Show error messages accordingly
+d. login page is our defualt routes
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+dashboard page 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+After successful login redirect to /dashboard that has welcome message.
+In this page show navbar menu for jokes and logout.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+jokes page 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+a. Jokes Spot (card UI in some comic style fonts) -
+b. [ROUTE NAME -/jokes]
+c. use of axios to fetch this API and display the response on jokes page
+d. loader integrated while the response is being fetched
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+code file
+route's file :- hello-world-task/src/App.js  or  App.css 
+login page :- hello-world-task/src/coponents/login/index.js  or login.css
+dashboard page :- hello-world-task/src/coponents/dashboard/index.js  or dashboard.css
+jokes page :- hello-world-task/src/coponents/jokes/index.js  or jokes.css
+dashboard page :- hello-world-task/src/coponents/navbar/index.js  or navbar.css
+  
